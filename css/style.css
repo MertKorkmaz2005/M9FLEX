@@ -1,0 +1,61 @@
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}   
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.form__input{
+    border: 0;
+    margin: 1rem 0;
+    padding: 2rem;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+    resize: none;
+    width: 50rem
+  
+  
+}
+
+.form__selects{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form__select{
+    background: #068FFF;
+    color: #eee;
+    padding: 0.5rem;
+}
+
+.form__btn{
+    margin-top: 5rem;
+    width: 20rem;
+    height: 5rem;
+    background:  #068FFF;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0.5rem 0.5rem 1rem black;
+    cursor: pointer;
+    color: #eee;
+    font-size: 120%;
+    font-weight: 400;
+}
