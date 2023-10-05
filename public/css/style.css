@@ -11,11 +11,16 @@ html{
 }   
 
 .form{
+    padding: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
+}
+
+.form__h2{
+    font-size: 20rem;
 }
 
 
